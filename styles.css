@@ -79,3 +79,12 @@ button {
 button:hover {
     box-shadow: 0 0 20px #caf0f8;
 }
+
+@media screen and (max-width: 700px){
+
+    .content{
+        display: flex;
+        flex-direction:column-reverse;
+        
+    }
+}
